@@ -7,6 +7,11 @@ on:
   pull_request:
     branches:
       - main
+
+  workflow_dispatch:
+
+  schedule:
+    - cron: "10 14 * * 1-5"
    
 
 jobs:
